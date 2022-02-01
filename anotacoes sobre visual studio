@@ -1,0 +1,22 @@
+Visual Studio
+
+link para downloard:https://code.visualstudio.com/download
+Documentação visual studio:https://docs.microsoft.com/en-us/visualstudio/windows/?view=vs-2022
+
+Criar teste no visual studio:
+
+- Devemos clicar no método que vai ser testado com o botão direito e então
+criar testes de unidade
+- Vai ser criado um novo projeto dentro da solução com arquivo de teste, cada método tem que ser configurado com o padrão AAA.
+  Arrange(oraganizar): inicializa os objetivos e define o valor dos dados que são passados para o método sendo testado.
+  Act(agir): invoca o método sendo testado com os parâmetros orgnizados
+  Assert(declarar): verifica se a ação do método em teste se comporta conforme  esperado
+
+como é feita a depuração :
+colocando um breakpoint na linha a ser depurada e executando o código, a navegação pelo código é possível pelas teclas f5, f10 e f11
+
+Qual finalidade em testar um código:
+saber se o retorno de um método ou classe é igual o esperado
+
+Como é feito o Assert de um teste?
+Assert.AreEqual(esperado, resultado)
